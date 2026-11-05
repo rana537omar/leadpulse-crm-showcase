@@ -6,11 +6,13 @@
 
 > **This is a product showcase.** The LeadPulse CRM software and its source code are proprietary and are **not** included in this repository. See [License](#license).
 
+**Showcase website:** https://rana537omar.github.io/leadpulse-crm-showcase/
+
 ## Demo video
 
-<p align="center"><a href="media/LeadPulse-CRM-demo.mp4"><img src="media/video-poster.png" alt="Watch the 2-minute LeadPulse CRM demo" width="100%"></a></p>
+<p align="center"><a href="https://rana537omar.github.io/leadpulse-crm-showcase/#demo"><img src="media/video-poster.png" alt="Watch the 2-minute LeadPulse CRM demo" width="100%"></a></p>
 
-A 2-minute walkthrough (1080p): leads arriving from social accounts, working a lead, the pipeline, team tasks, and the CEO's live report on desktop and phone. [Open the video](media/LeadPulse-CRM-demo.mp4).
+A 2-minute walkthrough (1080p): leads arriving from social accounts, working a lead, the pipeline, team tasks, and the CEO's live report on desktop and phone. **[Watch it on the showcase website](https://rana537omar.github.io/leadpulse-crm-showcase/#demo)**.
 
 ## Features
 
