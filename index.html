@@ -34,7 +34,18 @@
     figcaption { padding: 10px 14px; font-size: 14px; color: var(--text-2); }
     figcaption b { color: var(--text); }
     .phones { max-width: 760px; margin: 24px auto 0; border-radius: 14px; overflow: hidden; }
-    footer { margin: 56px 0 32px; padding-top: 20px; border-top: 1px solid var(--border); color: var(--muted); font-size: 13.5px; }
+    .cta { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 18px; margin: 4px 0 0; }
+    .wa-btn { display: inline-flex; align-items: center; gap: 12px; background: #168f48; color: #fff; text-decoration: none; font-weight: 700; font-size: 17px; padding: 13px 22px 13px 18px; border-radius: 999px; box-shadow: 0 6px 18px rgba(22,143,72,.28); }
+    .wa-btn:hover { background: #127a3d; }
+    .wa-btn:focus-visible, .wa-float:focus-visible { outline: 3px solid #86b6ef; outline-offset: 3px; }
+    .wa-btn small { display: block; font-weight: 500; font-size: 13px; opacity: .9; }
+    .cta-note { color: var(--text-2); font-size: 14.5px; }
+    .wa-float { position: fixed; right: 18px; bottom: 18px; z-index: 50; width: 58px; height: 58px; border-radius: 50%; background: #168f48; display: grid; place-items: center; box-shadow: 0 8px 24px rgba(0,0,0,.28); }
+    .wa-float:hover { background: #127a3d; }
+    .contact { margin-top: 48px; background: var(--surface); border: 1px solid var(--border); border-radius: 14px; padding: 22px; display: flex; flex-wrap: wrap; gap: 16px; align-items: center; justify-content: space-between; }
+    .contact h2 { margin: 0 0 4px; }
+    .contact p { margin: 0; color: var(--text-2); }
+    footer { margin: 32px 0 90px; padding-top: 20px; border-top: 1px solid var(--border); color: var(--muted); font-size: 13.5px; }
     a { color: var(--accent); }
     @media (max-width: 420px) { .gallery { grid-template-columns: minmax(0, 1fr); } }
   </style>
@@ -45,6 +56,13 @@
     <h1>LeadPulse CRM</h1>
     <p class="lead">A CRM built for companies whose leads come from social media. Every Facebook and Instagram lead form, WhatsApp chat, LinkedIn or TikTok lead, Google Ads form and website enquiry lands in one place; the team works it through a simple pipeline; everyone's tasks stay on track; and the CEO follows the results from a live report link.</p>
     <div class="notice">This page is a product showcase. The software and its source code are proprietary and not available for download. All names and figures shown are fictional demo data.</div>
+    <div class="cta">
+      <a class="wa-btn" href="https://wa.me/201208562225?text=Hello%2C%20I%20saw%20LeadPulse%20CRM%20and%20I%20would%20like%20to%20get%20the%20full%20system%20and%20the%20source%20code." target="_blank" rel="noopener">
+        <svg width="28" height="28" viewBox="0 0 36 36" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4.5 33 7 25.6A15.5 15.5 0 1 1 12.6 31z"/><path d="M12.4 11.6c-.4 5.6 5.6 11.8 11.4 11.6l1.9-2.6-3.3-2-1.7 1.3a10.4 10.4 0 0 1-4.6-4.6l1.3-1.7-2-3.3z" fill="#fff" stroke-width="1.4"/></svg>
+        <span>Get the full system &amp; code<small>Chat on WhatsApp · +20 120 856 2225</small></span>
+      </a>
+      <span class="cta-note">For your company, a live demo, or the complete source code.</span>
+    </div>
 
     <h2 id="demo">Demo video</h2>
     <div class="video">
@@ -102,11 +120,22 @@
     </div>
     <img class="phones" src="media/ceo-phone.png" alt="The CEO report and the dashboard on a phone" loading="lazy">
 
+    <section class="contact" aria-labelledby="contact-title">
+      <div><h2 id="contact-title">Get the full system</h2><p>Want LeadPulse CRM for your company, a live demo, or the complete source code? Message me on WhatsApp: <b>+20 120 856 2225</b>.</p></div>
+      <a class="wa-btn" href="https://wa.me/201208562225?text=Hello%2C%20I%20saw%20LeadPulse%20CRM%20and%20I%20would%20like%20to%20get%20the%20full%20system%20and%20the%20source%20code." target="_blank" rel="noopener">
+        <svg width="28" height="28" viewBox="0 0 36 36" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4.5 33 7 25.6A15.5 15.5 0 1 1 12.6 31z"/><path d="M12.4 11.6c-.4 5.6 5.6 11.8 11.4 11.6l1.9-2.6-3.3-2-1.7 1.3a10.4 10.4 0 0 1-4.6-4.6l1.3-1.7-2-3.3z" fill="#fff" stroke-width="1.4"/></svg>
+        <span>Chat on WhatsApp<small>+20 120 856 2225</small></span>
+      </a>
+    </section>
+
     <footer>
-      <p>LeadPulse CRM is available for companies on request. Contact <a href="https://github.com/rana537omar">@rana537omar</a> for a live demo or licensing.</p>
+      <p>LeadPulse CRM is available for companies on request: WhatsApp <a href="https://wa.me/201208562225">+20 120 856 2225</a> or <a href="https://github.com/rana537omar">@rana537omar</a> on GitHub.</p>
       <p>Copyright &copy; 2026 Rana Omar. All rights reserved. The text, images and video on this page are shared for viewing only. No license is granted to copy, reuse or republish them, or to use the software they show.</p>
     </footer>
   </main>
+  <a class="wa-float" href="https://wa.me/201208562225?text=Hello%2C%20I%20saw%20LeadPulse%20CRM%20and%20I%20would%20like%20to%20get%20the%20full%20system%20and%20the%20source%20code." target="_blank" rel="noopener" aria-label="Chat on WhatsApp to get the full system" title="Chat on WhatsApp: +20 120 856 2225">
+    <svg width="30" height="30" viewBox="0 0 36 36" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4.5 33 7 25.6A15.5 15.5 0 1 1 12.6 31z"/><path d="M12.4 11.6c-.4 5.6 5.6 11.8 11.4 11.6l1.9-2.6-3.3-2-1.7 1.3a10.4 10.4 0 0 1-4.6-4.6l1.3-1.7-2-3.3z" fill="#fff" stroke-width="1.4"/></svg>
+  </a>
   <script>document.querySelectorAll('img').forEach((i) => i.addEventListener('contextmenu', (e) => e.preventDefault()));</script>
 </body>
 </html>

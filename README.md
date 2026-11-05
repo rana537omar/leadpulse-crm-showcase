@@ -8,6 +8,8 @@
 
 **Showcase website:** https://rana537omar.github.io/leadpulse-crm-showcase/
 
+<p align="center"><a href="https://wa.me/201208562225?text=Hello%2C%20I%20saw%20LeadPulse%20CRM%20and%20I%20would%20like%20to%20get%20the%20full%20system%20and%20the%20source%20code."><img src="media/whatsapp-button.svg" alt="Get the full system and source code: chat on WhatsApp, +20 120 856 2225" width="380"></a></p>
+
 ## Demo video
 
 <p align="center"><a href="https://rana537omar.github.io/leadpulse-crm-showcase/#demo"><img src="media/video-poster.png" alt="Watch the 2-minute LeadPulse CRM demo" width="100%"></a></p>
@@ -63,9 +65,11 @@ A 2-minute walkthrough (1080p): leads arriving from social accounts, working a l
 
 All names, companies and figures in these screenshots and the video are fictional demo data.
 
-## Interested?
+## Get the full system
 
-LeadPulse CRM is available for companies on request. Contact [@rana537omar](https://github.com/rana537omar) for a live demo or licensing.
+Want LeadPulse CRM for your company, a live demo, or the complete source code? Message me on WhatsApp: **+20 120 856 2225**.
+
+<p align="center"><a href="https://wa.me/201208562225?text=Hello%2C%20I%20saw%20LeadPulse%20CRM%20and%20I%20would%20like%20to%20get%20the%20full%20system%20and%20the%20source%20code."><img src="media/whatsapp-button.svg" alt="Get the full system and source code: chat on WhatsApp, +20 120 856 2225" width="380"></a></p>
 
 ## License
 
